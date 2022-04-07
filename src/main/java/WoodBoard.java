@@ -44,4 +44,15 @@ public class WoodBoard {
     public int getY() {
         return y;
     }
+
+    public void showBoardPiecesDimmensions() {
+        for (int i = 0; i < boardPiecesCut.size(); i++) {
+            System.out.println("piece #" + (i + 1)
+                    + " = "
+                    + boardPiecesCut.get(i).getX()
+                    + " x "
+                    + boardPiecesCut.get(i).getY());
+        }
+
+    }
 }
