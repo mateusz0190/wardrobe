@@ -45,6 +45,8 @@ public class WoodBoard {
         return y;
     }
 
+
+
     public void showBoardPiecesDimmensions() {
         for (int i = 0; i < boardPiecesCut.size(); i++) {
             System.out.println("piece #" + (i + 1)

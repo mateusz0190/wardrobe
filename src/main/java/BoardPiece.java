@@ -38,4 +38,6 @@ public class BoardPiece {
     public BigDecimal getBoardArea() {
         return pieceArea;
     }
+
+
 }

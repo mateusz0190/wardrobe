@@ -97,7 +97,7 @@ public class Main {
         System.out.println("Dziekuję");
     }
 
-    private static List<BoardPiece> preparingListToCut(Map<BoardPiece, Integer> wardrobePieces) {
+    public static List<BoardPiece> preparingListToCut(Map<BoardPiece, Integer> wardrobePieces) {
         List<BoardPiece> boardPiecesList = new ArrayList<>();
         for (BoardPiece piece : wardrobePieces.keySet()
         ) {
